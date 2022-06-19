@@ -11,8 +11,8 @@
 
 ## Getting Started
 
-1. for ssh: `git clone git@github.com:simonhlee97/adonis-auth-starter.git`
-2. for HTTPS: `git clone https://github.com/simonhlee97/adonis-auth-starter.git`
+1. for ssh: `git clone git@github.com:simonhlee97/adonisjs-auth-starter.git`
+2. for HTTPS: `git clone https://github.com/simonhlee97/adonisjs-auth-starter.git`
 3. or download the zip file
 
 - Then cd into your project, run `npm install` (or `yarn`).
