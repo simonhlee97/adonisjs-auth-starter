@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdonisJS - A fully featured web framework for Node.js</title>
+  @entryPointStyles('app')
+  @entryPointScripts('app')
+</head>
+<body>
+
+  <main>
+    <div>
+
+      @if (auth.user)
+        <a href="{{ route('auth.logout') }}">Logout</a>
+      @endif
+
+      <h1 class="title">AdonisJS + Auth Starter</h1>
+      <p class="subtitle">
+        Congratulations, you have just created your first AdonisJS app.
+      </p>
+
+      <ul>
+        <li>
+          Join the <a href="https://discord.gg/vDcEjq6?">AdonisJS Discord Server</a> or the <a
+            href="https://forum.adonisjs.com/">Forum</a>.
+        </li>
+        <li><a href="https://github.com/simonhlee97/adonis-auth-starter">code repo</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
